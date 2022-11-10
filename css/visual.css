@@ -1,0 +1,133 @@
+body{
+    background: rgb(25,25,112);
+}
+
+.logo{
+  color: white;
+  margin-left: 20px;
+}
+/* ***** INDEX ***** */
+.produtos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.produtos h1, .produtos_title{
+    color: darkorange;
+    text-align: center;
+}
+
+.produtos img{
+    width: 100%;
+    height: 350px;
+}
+
+.produtos ul{
+    float: left;
+    width: 200px;
+}
+.produtos ul li{
+    list-style-type: none;
+    color: darkorange;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    margin-left: -40px;
+    font-size: 20px;
+}
+.produtos ul{
+  background: rgb(255, 255, 255, 0.2);
+  margin-left: 10px;
+}
+.produtos ul li:first-child{
+  color: darkorange;
+  margin-left: -40px;
+}
+.produtos ul li:nth-child(4){
+   font-size: 18px;
+   color: greenyellow;
+}
+.produtos ul li:nth-child(5){
+   font-size: 15px;
+   color: white;
+}
+
+.separador{
+  border-bottom: 1px solid black;
+  margin-top: -10px;
+}
+
+.ver_button{
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    background: purple;
+    color: white;
+    width: 150px;
+    height: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 2px;
+    text-decoration: none;
+}
+
+/* EQUIPE */
+.equipe{
+  display: flex;
+  justify-content: center;
+}
+.equipe img{
+    width: 230px;
+    height: 200px;
+}
+
+.equipe ul{
+    list-style-type: none;
+    background: rgb(255, 255, 255, 0.7);
+    width: 200px;
+}
+.equipe ul li{
+     text-align: center;
+     margin-left: -40px;
+     font-size: 20px;
+     font-weight: bold;
+     font-family: consolas;
+}
+
+/* NOVIDADES */
+.novidade{
+  display: flex;
+  justify-content: center;
+  background: rgb(255, 255, 255, 0.5);
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.novidade input{
+   background: orange;
+   color: black;
+   height: 30px;
+   width: 400px;
+   margin-top: 20px;
+ }
+.novidade input:focus{
+    outline: none;
+}
+
+.bi{
+    font-size: 20px;
+}
+
+.btn_novidade{
+     background: none;
+     border: none;
+     background: purple;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     width: 200px;
+     height: 30px;
+     border-radius: 20px;
+     text-align: center;
+     margin-left: 90px;
+     color: white;
+     font-size: 20px;
+ }
